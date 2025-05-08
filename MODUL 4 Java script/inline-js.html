@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Moh. Andris Saputra</title>
+  <script>
+      function UbahWarnaTeks() {
+        var elemenP = document.getElementById('paragraf')
+        elemenP.style.color = elemenP.style.color === 'red' ? 'black' : 'red';
+      }
+  </script>
+</head>
+<body>
+  <h1>Klik Tombol Untuk Mengubah Warna Teks</h1>
+  <p id="paragraf">Teks ini akan berubah warnanya ketika tombol diklik.</p>
+  <button onclick="UbahWarnaTeks()">Klik Saya!</button>
+</body>
+</html>

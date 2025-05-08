@@ -1,0 +1,4 @@
+// contoh comment
+//
+ /*contoh komen
+ */

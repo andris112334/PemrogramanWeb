@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moh. Andris Saputra</title>
+    <link rel="stylesheet" href="perhitungan.css">
+</head>
+<body>
+    <div class="calculator-container">
+        <h1>Kalkulator Bangun Ruang</h1>
+        
+        <div class="shape-selector">
+            <label for="shape">Pilih Bangun Ruang:</label>
+            <select id="shape" onchange="showInputFields()">
+                <option value="">-- Pilih --</option>
+                <option value="cube">Kubus</option>
+                <option value="block">Balok</option>
+                <option value="cylinder">Tabung</option>
+                <option value="sphere">Bola</option>
+                <option value="cone">Kerucut</option>
+            </select>
+        </div>
+
+        <div id="input-fields" class="input-fields">
+            <!-- Input fields akan muncul di sini -->
+        </div>
+
+        <div class="buttons">
+            <button onclick="calculate()">Hitung</button>
+            <button onclick="resetForm()">Reset</button>
+        </div>
+
+        <div id="results" class="results">
+            <!-- Hasil perhitungan akan muncul di sini -->
+        </div>
+    </div>
+
+    <script src="perhitungan.js"></script>
+</body>
+</html>

@@ -1,0 +1,6 @@
+/*univeersal selector */
+*{
+    background-color: rgb(110, 112, 199);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', sans-serif;
+    text-align: center;
+}

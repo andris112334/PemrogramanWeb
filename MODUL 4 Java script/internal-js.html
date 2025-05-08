@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JS internal Moh. Andris Saputra</title>
+
+  <script>
+    var P = 10;
+    var L = 5;
+    var T = 7;
+    volume = P * L * T;
+    document.write('panjang balok adalah = ' + P + '<br>');
+    document.write('lebar balok adalah = ' + L + '<br>');
+    document.write('tinggi balok adalah = ' + T + '<br>');
+
+    window.onload = function () {
+      document.querySelector('#volume_result').innerHTML = volume + '<br>';
+    }
+  </script>
+</head>
+
+<body>
+  <h2>Volume balok adalah = <span id="volume_result"></span></h2>
+</body>
+
+</html>
